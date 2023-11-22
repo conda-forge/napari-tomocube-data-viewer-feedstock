@@ -21,7 +21,7 @@ requirements:
   run:
     - numpy
     - python >=3.8
-    - tcfile
+    - tcfile <=2023.7
 
 test:
   imports:
@@ -33,10 +33,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/ehgus/napari-tomocube-data-viewer
+  home: https://pypi.org/project/napari-tomocube-data-viewer
   summary: A plugin to visualize three-dimensional data from Tomocube's microscopy
   license: MIT
   license_file: LICENSE
+  dev_url: https://github.com/ehgus/napari-tomocube-data-viewer
 
 extra:
   recipe-maintainers:
