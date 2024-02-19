@@ -3,11 +3,13 @@ About napari-tomocube-data-viewer-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-tomocube-data-viewer-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/ehgus/napari-tomocube-data-viewer
+Home: https://pypi.org/project/napari-tomocube-data-viewer
 
 Package license: MIT
 
 Summary: A plugin to visualize three-dimensional data from Tomocube's microscopy
+
+Development: https://github.com/ehgus/napari-tomocube-data-viewer
 
 Current build status
 ====================
