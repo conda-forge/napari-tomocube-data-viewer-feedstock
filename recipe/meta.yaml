@@ -1,5 +1,5 @@
 {% set name = "napari-tomocube-data-viewer" %}
-{% set version = "2024.2" %}
+{% set version = "2024.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-tomocube-data-viewer-{{ version }}.tar.gz
-  sha256: 0c9852b5439b4e8314d591f2e2ff6aba29e0a470a7db78513c6c7aae30d19b7e
+  sha256: 5e417b0c78fbb71529088afb9f06a3a84867d6ba70602a3e9e04790f8c6f48f5
 
 build:
   noarch: python
