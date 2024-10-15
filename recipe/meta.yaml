@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
+    - setuptools >=42.0.0
     - python >=3.8
   run:
     - numpy
     - python >=3.8
-    - tcfile <=2023.7
+    - tcfile ==2024.10.1
 
 test:
   imports:
